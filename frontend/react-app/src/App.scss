@@ -1,0 +1,56 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+  //font-family: "Roboto","Arial",sans-serif;
+}
+
+html, html * {
+  //color: #222 !important;
+  //background: none !important;
+}
+
+body{
+  height: 100%;
+  background: hsl(0, 10.3%, 94.3%);
+  font-family: "Roboto", "Arial", sans-serif;
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  h1, h2, h3, h4, h5{
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "Roboto", "Arial", sans-serif;
+    //font-size: 1.2rem;
+    //line-height: 2rem;
+    //font-weight: 400;
+  }
+}
+
+.container{
+  display: grid;
+  //max-width: fit-content;
+
+  .center {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+
+button, button > p {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.2rem !important;
+  font-weight: 400;
+}
+
+button > p {
+  padding-top: 0 !important;
+}
+

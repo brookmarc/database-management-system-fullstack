@@ -1,0 +1,165 @@
+
+
+
+
+// Database configuration header
+.db-config-header {
+  .header-box {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-bottom: .27rem;
+    font-weight: 600;
+    color: #91908f;
+    padding: .3rem 0 .3rem .7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    .header-box-icon {
+      display: flex;
+      height: 1.5rem;
+      width: 1.5rem;
+      margin-right: .5rem;
+    }
+  }
+}
+
+.db-config-container {
+  background: #605d5d;
+  display: flex;
+  .mysql-config-container {
+    width: 30%;
+    min-height: 17rem;
+    background: #3e133e;
+    margin: 1.3rem;
+    border-radius: .7rem;
+    padding: .9rem;
+    .mysql-config-header {
+      display: flex;
+      color: green;
+      font-family: "Roboto","Arial",sans-serif;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      font-weight: 600;
+      svg {
+	padding-top: .5rem;
+        height: 1.5rem;
+	width: 1.5rem;
+	color: #c5c5ca;
+      }
+    }
+  }
+}
+
+
+.mysql-config-box {
+  .mysql-config-form {
+    margin: .3rem 0 0 .5rem;
+    .config-item {
+      display: flex;
+      align-items: center;
+      font-family: "Roboto","Arial",sans-serif;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      .config-key {
+        color: blue;
+	font-weight: 600;
+      }
+      .config-value {
+        font-weight: 400;
+	padding-left: .5rem;
+	margin: .3rem 0 .3rem .5rem;
+	border-bottom: 1px solid #706e6b;
+	color: #bebea9;
+	width: 17rem;
+	height: 2rem;
+	.config-pwd-box {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  .config-pwd-visibility {
+	    padding-right: .5rem;
+	    color: #9aa052;
+	    &:hover {
+	      color: #bdc64b;
+	    }
+	  }
+	}
+      }
+      .config-edit-btn {
+        margin-left: 1.5rem;
+	svg {
+	  padding: 0.2rem;
+	  background: #464545;
+	  border-radius: 50%;
+	  color: #dbdbdf;
+	  &:hover {
+	    color: #c7a657;
+	  }
+	}
+      }
+    }
+    .config-update-btn {
+      margin-top: 1rem;
+      padding: .2rem;
+      border: 1px solid #565661;
+      border-radius: .2rem;
+      background: #565661;
+      font-size: 1.2rem;
+      width: 90px;
+      height: 29px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background: #686878;
+	cursor: default;
+      }
+    }
+    .config-input-box {
+      position: relative;
+      margin: .3rem 0 .3rem .5rem;
+      .config-form-input {
+        height: 31px;
+	padding-left: .9rem;
+	border: none;
+	border-radius: .2rem;
+	font-size: 1.1rem;
+      }
+      .pwd-hide-icon {
+        position: absolute;
+	right: 1rem;
+	top: .35rem;
+	color: #000;
+      }
+    }
+    .edit-btn-container {
+      display: flex;
+      .config-update-sub {
+        input {
+	  margin-top: 1rem;
+	  margin-right: .5rem;
+	  padding: 0.2rem;
+	  border: 1px solid #2f2fb6;
+	  border-radius: 0.2rem;
+	  background: #2f2fb6;
+	  font-size: 1.2rem;
+	  width: 7rem;
+	  //height: 29px;
+	  height: 2.3rem;
+	  color: #eee;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  &:hover {
+	    background: #27279b;
+	  }
+	} 
+      }
+    }
+  }
+}
+
+
+

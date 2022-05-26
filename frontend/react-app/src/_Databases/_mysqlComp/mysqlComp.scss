@@ -1,0 +1,108 @@
+
+
+
+.mysql-more-action {
+  margin-left: .5rem;
+  height: 2rem;
+  //background: #c0bebe;
+  //color: #111;
+  //background: #0f0e0e;
+  //color: #1976d2;
+  background: #c8c6c6;
+  color: #111;
+  padding: .2rem .9rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .3rem;
+  //border: 1px solid rgba(25,118,210,0.5);
+  border: 1px solid #c8c6c6;
+  //box-shadow: inset -1px -1px #84888c,inset 1px 1px #F0F0F0,inset -2px -2px #85898d,inset 2px 2px #dfdfdf !important;
+  &:hover {
+    cursor: default;
+    background: #e6e2e2;
+    color: #2880d7;
+    border: 1px solid #e6e2e2;
+  }
+}
+
+.mysql-more-container {
+  //color: white;
+  display: flex;
+  background: #fbfb00;
+  padding: .2rem .3rem .2rem 1rem;
+  border-radius: .3rem;
+  position: relative;
+  margin-left: 1rem;
+  .mysql-close-action {
+    color: #f8f8f9;
+    top: -.6rem;
+    position: absolute;
+    left: -.6rem;
+    svg {
+      background: #f15454;
+      border-radius: 50%;
+      height: 1rem;
+      width: 1rem;
+      padding: .13rem;
+    }
+  }
+}
+
+
+.add-newdb-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #230d0d;
+  color: white;
+  border-radius: .2rem;
+  padding: 0 .3rem;
+  margin-left: .5rem;
+  box-shadow: inset -1px -1px #b2bcc6, inset 1px 1px #ADA9A9, inset -2px -2px #eceef1, inset 2px 2px #857f7f !important;
+  &:hover {
+    background: #635858;
+    cursor: default;
+  }
+  input {
+    padding: 0.1rem 0.3rem;
+    background: #2f2e2c;
+    color: white;
+    border: 1px solid #2f2e2c;
+    border-radius: .2rem;
+    &:hover {
+      background: #68645d;
+      border: 1px solid #68645d;
+    }
+  }
+}
+
+.add-newdb-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .add-newdb-input > input,
+  .add-newdb-btn > input {
+    height: 1.8rem;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .add-newdb-input {
+    margin: 0 .5rem 0 .3rem;
+    input {
+      width: 18rem;
+      padding-left: .5rem;
+    }
+  }
+}
+
+
+.input-form {
+  select {
+    outline: none;
+  }
+}
+

@@ -1,0 +1,118 @@
+
+
+
+.s-hidden {
+   visibility:hidden;
+   padding-right:10px;
+}
+
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.styledSelect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.styledSelect:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  top: 9px;
+  right: 6px;
+}
+
+.styledSelect:active, .styledSelect.active {
+  background: #eee;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0 0;
+  padding: 0 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  background: white;
+  box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.option li {
+  padding: 0 6px;
+  margin: 0 0;
+  padding: 0 10px;
+}
+
+.option li:hover {
+  background: #39f;
+  color: white;
+}
+
+
+// ******* search button ******
+.search-cancel {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+
+// ******* more option action ********
+.custom-select-box:hover {
+  color: #aba6a6;
+}
+.custom-select-menu {
+  width: 13rem;
+}
+
+
+// ****** user admin modal ******
+.modal-close-btn {
+  position: relative;
+  top: .3rem;
+  right: -95%;
+  .close-icon >svg {
+    border-radius: 50%;
+    height: 1.2rem;
+    width: 1.2rem;
+    padding: .17rem;
+    &:hover {
+      color: #fafafa;
+      background: blue;
+    }
+  }
+}
+
+
+
+// ****** RESET PASSWORD ******
+.reset-pwd-open {
+
+}
+
+.reset-pwd-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ee3;
+}
+
+
+

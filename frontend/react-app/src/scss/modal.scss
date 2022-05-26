@@ -1,0 +1,40 @@
+
+
+// ********** Header modal ***********
+
+
+
+
+
+
+// =============
+.modal-container-main {
+  position: relative;
+  min-width: 30rem;
+}
+.modal-btn-close {
+  position: absolute;
+  right: -.3rem;
+  top: -.9rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: #ea7106;
+  border-radius: 50%;
+  padding: .17rem;
+  color: #f9f9f9;
+  i > svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  &:hover {
+    background: #e84505;
+  }
+}
+
+
+
+
+
+
+
+

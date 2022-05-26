@@ -1,0 +1,48 @@
+
+
+
+// more option database widget
+.more-db-container {
+  background: #c0bebe !important;
+  color: #111;
+  border-radius: .3rem;
+  box-shadow: inset -1px -1px #84888c,inset 1px 1px #F0F0F0,inset -2px -2px #85898d,inset 2px 2px #dfdfdf !important;
+}
+//.custom-select-visible {
+//  background: #222;
+//  color: #e5dfdf;
+//  .select-option-item:hover {
+//    color: #111;
+//  }
+//}
+.hg-db-container {
+  //background: #fbfb00;
+  //background: #c0bebe;
+  display: flex;
+  padding: .2rem 1.3rem .2rem .2rem;
+  border-radius: .3rem;
+  position: relative;
+  .more-option-close {
+    position: absolute;
+    color: #f8f8f9;
+    top: -.6rem;
+    right: -.6rem;
+    svg {
+      background: #f15454;
+      border-radius: 50%;
+      height: 1rem;
+      width: 1rem;
+      padding: .13rem;
+    }
+  }
+}
+
+
+//.custom-select-text, 
+.custom-select-menu {
+  width: 13rem;
+}
+
+
+
+

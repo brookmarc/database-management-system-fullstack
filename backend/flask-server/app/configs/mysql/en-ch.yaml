@@ -1,0 +1,73 @@
+---
+essence_test:
+  blog1_users_101:
+    email: EMAIL
+    id: ID
+    password: ''
+    username: USERNAME
+  crud2_test_table1:
+    col10: ''
+    col11: "\u7F51\u7EDC\u7F16\u7801"
+    col2: "IP\u5730\u5740"
+    col3: ''
+    col4: ''
+    col5: ''
+    col6: ''
+    col7: ''
+    col8: ''
+    col9: ''
+    create_at: "\u521B\u5EFA\u65E5\u671F"
+    id: ID
+    name: "\u8BBE\u5907\u540D\u79F0"
+    network: "\u7F51\u7EDC\u7B56\u7565"
+  crud2_test_table2:
+    create_at: ''
+    firewall: ''
+    id: ID
+    ip: ''
+    name: NAME
+    node: ''
+    url: URL
+test_db:
+  animals:
+    id: ID
+    name: "\u52A8\u7269\u540D\u5B57"
+  pet:
+    birth: Birth
+    death: ''
+    name: Name
+    owner: Owner
+    sex: Sex
+    species: ''
+  tb1_user:
+    UID: ''
+    age: ''
+    id: ID
+    password: ''
+    user_email: ''
+    username: Username
+  tb34_user:
+    address: "\u8BBE\u5907\u5730\u5740"
+    created_at: "\u521B\u5EFA\u65E5\u671F"
+    device_name: "\u8BBE\u5907\u540D\u79F0"
+    ip_addr: "\u8BBE\u5907IP\u5730\u5740"
+    name: "\u9632\u706B\u5899\u540D\u79F0"
+    net_strategies: "\u7F51\u7EDC\u7B56\u7565"
+  tb_device:
+    device_name: "\u8BBE\u5907\u540D\u79F0"
+    ip_addr: "\u8BBE\u5907IP\u5730\u5740"
+    location: "\u8BBE\u5907\u5730\u70B9"
+test_db1:
+  city:
+    city_name: CITY
+    country_id: ''
+    id: ID
+  country:
+    country_code: ''
+    country_name: Country
+    id: ID
+  employees:
+    department_id: ''
+    employee_name: ''
+    employee_number: Employee
+    salary: Salary

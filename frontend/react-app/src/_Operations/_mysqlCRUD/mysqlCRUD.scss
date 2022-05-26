@@ -1,0 +1,149 @@
+// ********* LAYOUT *********
+.mysql-crud-main {
+  font-family: "Roboto","Arial",sans-serif;
+}
+
+// ********* COMMON *********
+
+
+.cfm-btn-container {
+  font-family: "Roboto","Arial",sans-serif;
+  display: flex;
+  .cfm-btn-box {
+    margin: 1rem .3rem 0 0;
+    button {
+      width: 6rem;
+      height: 2.5rem;
+      background: #2929a1;
+      color: #dfe1db;
+      border: none;
+      border-radius: .3rem;
+      &:hover {
+        background: #181881;
+	cursor: pointer;
+      }
+      p {
+        font-size: 1.1rem;
+	font-weight: 400;
+      }
+    }
+  }
+}
+
+.d-remark-box {
+  margin: .1rem 0 0 0;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  font-weight: 300;
+}
+
+.empty-data-box {
+  padding: .2rem .7rem 0 0;
+  color: #77779c; 
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  font-weight: 500;
+}
+
+// ********* SHOW DATA COMPONENT *********
+.mysql-crud-header-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: .3rem 1rem;
+  background: linear-gradient(#111,#222,#333);
+  .mysql-action-bar {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+// ********* CREATE COMPONENT *********
+// ********* UPDATE COMPONENT *********
+
+
+// ********* DELETE COMPONENT *********
+.delete-modal {
+  width: 42rem;
+}
+
+.del-item-container {
+  font-family: "Roboto","Arial",sans-serif;
+}
+
+.del-content-box {
+  .del-content-header {
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+  }
+  .del-content-main {
+    .del-content-info {
+      margin-bottom: .5rem;
+      background: #d1d0d0;
+      padding: .7rem;
+    }
+  }
+}
+
+.modal-delete-close {
+  right: -1.5rem !important;
+  top: -1.5rem !important;
+}
+
+// ********* FORM ERROR REMARK ********
+.error-remark-box {
+  margin: 1rem 0 1rem .5rem;
+  color: #ea4606;
+  .error-msg-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .error-msg-icon {
+      color: #f4380d;
+    }
+  }
+}
+
+// ********* SEARCH COMPONENT *********
+
+
+
+
+// ********* circular progress ********
+
+.circular-progress-box {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// ******** widgets ***********
+.custom-select-box {
+  height: 33px !important;
+  width: 13rem !important;
+  padding-left: .3rem !important; 
+  &:hover {
+    cursor: default !important;
+  }
+}
+
+
+.custom-select-visible {
+  background: #222 !important;
+  color: #e5dfdf !important;
+  .select-option-item {
+    &:hover {
+      color: #111 !important;
+    }
+  }
+}
+
+
+
+
