@@ -1,12 +1,9 @@
 import pymysql
 import configparser
 from flask import Flask, request
-#from flask_migrate import Migrate
 from flask_cors import CORS
-#from flask_restx import Api
 from flask_restful import Api
 from werkzeug.middleware.proxy_fix import ProxyFix
-#from flaskext.mysql import MySQL
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -24,7 +21,6 @@ def create_app():
 
     app.wsgi_app = ProxyFix(app.wsgi_app)
     db.init_app(app)
-    #migrate = Migrate(app, db)
 
 
     with app.app_context():

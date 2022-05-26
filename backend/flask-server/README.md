@@ -27,4 +27,5 @@ Launches the project on http://127.1.9.5:8080/ (Press CTRL+C to quit)
 
 ### `pip3 freeze > requirements.txt`
 
+# The flask blueprints register file is `app/__init__.py`
 
