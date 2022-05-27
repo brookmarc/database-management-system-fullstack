@@ -1,5 +1,9 @@
 ## This is a database management system for MySQL
 
+#### Remarks:
+
+This project developed under `ubuntu` system 
+
 ### This project include backend and frontend two parts:
 
 #### - The backend based on Python Flask 
