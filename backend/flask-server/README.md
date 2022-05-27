@@ -6,6 +6,14 @@ After installed the virtual venv, then
 
 ### `. venv/bin/activate`
 
+Install the dependencies
+
+### `pip3 install -r requirements.txt`
+
+Check if it's installed successful
+
+### `pip3 freeze`
+
 # Now available running scripts with python3
 In the flask server project, you can run:
 

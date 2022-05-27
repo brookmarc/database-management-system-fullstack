@@ -1,6 +1,5 @@
 aniso8601==7.0.0
 anyio==3.4.0
-ariadne==0.14.0
 attrs==21.2.0
 bcrypt==3.2.0
 bidict==0.21.4
@@ -18,7 +17,7 @@ Flask-SocketIO==5.1.1
 Flask-SQLAlchemy==2.5.1
 graphene==2.1.8
 graphene-sqlalchemy==2.3.0
-graphql-core==2.2.1
+graphql-core==2.3.1
 graphql-relay==2.0.1
 graphql-server-core==1.2.0
 greenlet==1.1.2
