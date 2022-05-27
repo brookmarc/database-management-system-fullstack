@@ -42,3 +42,12 @@ click `system management` --> `database configuration` --> `modify mysql config`
 
 Then, you can move to use your mysql database!
 
+
+
+### git pull/push
+#### git clone --url
+#### git add <--file>
+#### git commit -a -m "...."
+#### git push -u origin main
+
+
