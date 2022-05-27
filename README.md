@@ -2,7 +2,7 @@
 
 #### Remarks:
 
-This project developed under `ubuntu` system 
+This project developed under `ubuntu` linux system 
 
 ### This project include backend and frontend two parts:
 
