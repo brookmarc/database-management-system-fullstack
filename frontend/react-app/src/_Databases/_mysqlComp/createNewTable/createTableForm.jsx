@@ -21,8 +21,8 @@ const CreateInputSql = async(nestedInputs) => {
       ) : (
         sqlItem = `${obj.field} ${obj.datatype} ${obj.Null} ${obj.extra}`
       )
-    //let sqlString = sqlItem.replaceAll("undefined", "")
-    let sqlString = sqlItem.replace("undefined", "")
+    let sqlString = sqlItem.replaceAll("undefined", "")
+    //let sqlString = sqlItem.replace("undefined", "")
     sqlArr.push(sqlString)
   }
   const fieldList = sqlArr.join(', ')
